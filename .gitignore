@@ -1,0 +1,31 @@
+# BEGIN swamp managed section - DO NOT EDIT
+
+# Runtime data (not needed in version control)
+.swamp/
+
+# Local extension sources (developer-specific, not shared)
+.swamp-sources.yaml
+
+# Claude Code configuration (managed by swamp)
+.claude/worktrees/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json
+# END swamp managed section
+
+# Local infra runtime state & secrets (do not publish)
+data/
+filerldb2/
+m9333/
+garage.toml
+setup.sh
+.mini_kek_passphrase
+.mini_sse_kek
+vaults/
+.vid_stamp
+vol_dir.uuid
+.swamp.yaml
+
+# Auto-generated swamp bookkeeping (regenerated locally)
+extensions/models/upstream_extensions.json
+telemetry-*.json

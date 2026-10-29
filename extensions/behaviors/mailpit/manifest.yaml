@@ -1,0 +1,19 @@
+manifestVersion: 1
+name: "@lllama/mailpit"
+version: "2026.10.29.2"
+license: MIT
+description: "Mailpit email-testing integration: send, search, inspect and clean test mail through typed behavior methods, assert delivery in workflows."
+
+repository: https://github.com/lllama/swamp-mailpit
+
+paths:
+  base: manifest
+
+behaviors:
+  - mailpit.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE
+
+platforms: []

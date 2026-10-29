@@ -1,0 +1,8 @@
+# Quality acceptance sidecar for @lllama/mailpit.
+#
+# behavior-spelling: this extension intentionally uses the behavior spelling
+# (export const behavior, extensions/behaviors/, manifest behaviors:). It is
+# only installable on swamp releases that support the behavior spelling.
+version: 1
+accept:
+  - rule: behavior-spelling
